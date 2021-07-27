@@ -1,0 +1,82 @@
+
+header, footer > div > p {
+  background-color: #D3BDB0;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #FFFFFF;
+  padding: 10px 0;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+body {
+  background-color: #E8DBC5;
+  color: #725E54;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  padding: 15px 20px; /* to protect text from border*/
+  line-height: 25px;
+}
+
+main > div > article > img {
+  padding: 15px 0; /*style choice to space out containers*/
+}
+
+hr {
+  background-color: #725E54;
+  height: 1px;
+  margin: 0 40px;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+a:visited {
+  color: #FFFFFF;
+}
+a:hover {
+  color: #FFFFFF;
+}
+a:active {
+  color: #FFFFFF;
+}
+
+a::before {
+  content: "<<";
+  color: #FFFFFF;
+}
+
+a::after {
+  content: ">>";
+  color:#FFFFFF;
+}
+
+ul {
+  line-height: 25px;
+  text-align: left;
+}
+
+ol {
+  text-align: left;
+  line-height: 35px;
+  text-transform: lowercase;
+}
+
+
+.button {
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 5px;
+  margin: 10px 15px;
+  background-color: #725E54;
+  border-radius: 10px;
+}
+
+
