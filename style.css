@@ -3,7 +3,7 @@ header, footer > div > p {
   background-color: #D3BDB0;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #FFFFFF;
+  color: #000000;
   padding: 10px 0;
 }
 
@@ -11,15 +11,23 @@ h1 {
   font-size: 42px;
 }
 
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
 body {
   background-color: #E8DBC5;
-  color: #725E54;
+  color: #000000;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
 p {
-  text-align: justify;
+  text-align: left;
   padding: 15px 20px; /* to protect text from border*/
   line-height: 25px;
 }
@@ -35,26 +43,26 @@ hr {
 }
 
 a:link {
-  color: #FFFFFF;
+  color: #463A34;
 }
 a:visited {
-  color: #FFFFFF;
+  color: #463A34;
 }
 a:hover {
-  color: #FFFFFF;
+  color: #2F2723;
 }
 a:active {
-  color: #FFFFFF;
+  color: #52443D;
 }
 
 a::before {
   content: "<<";
-  color: #FFFFFF;
+  color: #000000;
 }
 
 a::after {
   content: ">>";
-  color:#FFFFFF;
+  color: #000000;
 }
 
 ul {
@@ -62,20 +70,19 @@ ul {
   text-align: left;
 }
 
-ol {
+ol  {
   text-align: left;
   line-height: 35px;
-  text-transform: lowercase;
 }
 
 
 .button {
   font-size: 16px;
-  color: #FFFFFF;
+  color: #000000;
   text-align: center;
   padding: 5px;
   margin: 10px 15px;
-  background-color: #725E54;
+  background-color: #D3BDB0;
   border-radius: 10px;
 }
 
